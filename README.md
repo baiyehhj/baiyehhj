@@ -1,16 +1,26 @@
-## Hi there 👋
+| 这个作业属于哪个课程 | https://edu.cnblogs.com/campus/gdgy/Class12Grade23ComputerScience |
 
-<!--
-**baiyehhj/baiyehhj** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+| ----------------- |--------------- |
 
-Here are some ideas to get you started:
+| 这个作业要求在哪里| https://edu.cnblogs.com/campus/gdgy/Class12Grade23ComputerScience/homework/13469 |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+| 这个作业的目标 | 学习软件工程，熟练使用博客园、GitHub |
+
+## 自我介绍
+1.兴趣爱好：喜欢听歌、看电影、看网球排球比赛
+2.趣事：暑假的时候学写需求分析，被爸爸朋友看见，开玩笑道：“你老爸就是写标书的，如果工作项目的需求分析写成这样，被他看见肯定要批评”。希望通过这学期软件工程的学习，能写出一份合格的需求分析。
+
+## 想弄懂的问题
+1. 如何设计合理的用户反馈收集与分析机制，确保用户真实诉求能高效转化为产品优化方向？
+2. 瀑布模型、敏捷开发等不同开发模型的适配场景是什么？如何判断项目该用哪种模型？
+3. 如何制定合理的“技术预研”流程，针对不确定的技术方案提前验证可行性，避免后期因技术不可行导致项目返工？
+4. 如何量化评估“技术债务”的规模与影响，并有针对性地制定偿还计划？
+5. 如何设计软件的监控体系，既能及时发现线上问题，又不会因监控本身过度消耗系统资源？
+
+## 想获得的收获
+1. 希望能系统地掌握软件开发的整个流程，从需求分析、设计、编码到测试、维护，有清晰的认识和实践能力
+2. 学会如何在团队中高效协作，提升自己的沟通和项目管理能力
+3. 培养自己的工程思维，用更专业、更规范的方式去解决软件开发过程中遇到的各种问题，使代码安全、高效、好维护
+
+## GitHub仓库
+https://github.com/baiyehhj/baiyehhj
