@@ -1,6 +1,6 @@
 | 这个作业属于哪个课程 | https://edu.cnblogs.com/campus/gdgy/Class12Grade23ComputerScience |
 
-| ----------------- |--------------- |
+| ----------------------------- | --------------------------------------------------------------------------------------------------- |
 
 | 这个作业要求在哪里| https://edu.cnblogs.com/campus/gdgy/Class12Grade23ComputerScience/homework/13469 |
 
