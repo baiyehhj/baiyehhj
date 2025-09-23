@@ -1,0 +1,6 @@
+com\plagiarism\checker\SimilarityCalculator.class
+com\plagiarism\checker\FileAccessor.class
+com\plagiarism\checker\Main.class
+com\plagiarism\checker\TextPreprocessor.class
+com\plagiarism\checker\PlagiarismCheckerService.class
+com\plagiarism\checker\ConfigLoader.class
