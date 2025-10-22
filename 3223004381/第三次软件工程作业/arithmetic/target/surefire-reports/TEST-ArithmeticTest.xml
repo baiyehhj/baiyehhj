@@ -1,0 +1,1862 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ArithmeticTest" time="2.033" tests="15" errors="1" skipped="0" failures="6">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\大学作业\软件工程\结对项目\arithmetic\target\test-classes;E:\大学作业\软件工程\结对项目\arithmetic\target\classes;D:\apache-maven-361\local\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;D:\apache-maven-361\local\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;D:\apache-maven-361\local\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;D:\apache-maven-361\local\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\apache-maven-361\local\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;D:\apache-maven-361\local\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\apache-maven-361\local\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;D:\apache-maven-361\local\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\HHJ\AppData\Local\Temp\surefire7197262131039524\surefirebooter-20251020154506446_3.jar C:\Users\HHJ\AppData\Local\Temp\surefire7197262131039524 2025-10-20T15-45-02_750-jvmRun1 surefire-20251020154506446_1tmp surefire_0-20251020154506446_2tmp"/>
+    <property name="surefire.test.class.path" value="E:\大学作业\软件工程\结对项目\arithmetic\target\test-classes;E:\大学作业\软件工程\结对项目\arithmetic\target\classes;D:\apache-maven-361\local\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;D:\apache-maven-361\local\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;D:\apache-maven-361\local\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;D:\apache-maven-361\local\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;D:\apache-maven-361\local\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;D:\apache-maven-361\local\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\apache-maven-361\local\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;D:\apache-maven-361\local\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HHJ"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-1.8\jre"/>
+    <property name="basedir" value="E:\大学作业\软件工程\结对项目\arithmetic"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\HHJ\AppData\Local\Temp\surefire7197262131039524\surefirebooter-20251020154506446_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_401-b10"/>
+    <property name="user.name" value="HHJ"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\apache-maven-361\local\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HHJ\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_401"/>
+    <property name="user.dir" value="E:\大学作业\软件工程\结对项目\arithmetic"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\HHJ\anaconda3\condabin;C:\Program Files\Java\jdk-1.8\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Tomcat\apache-tomcat-9.0.91\bin;D:\MATLAB\runtime\win64;D:\MATLAB\bin;D:\MATLAB\polyspace\bin;D:\Maven\apache-maven-3.5.3\bin;C:\Program Files (x86)\VisualSVN Server\bin;C:\Users\HHJ\anaconda3;C:\Users\HHJ\anaconda3\Scripts;C:\Program Files\Git\cmd;D:\Maven\apache-maven-3.6.3\bin;C:\Windows\System32;C:\Program Files (x86)\NetSarang\Xshell 8\;C:\Program Files (x86)\NetSarang\Xftp 8\;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HHJ\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\nodejs\;C:\Program Files\Java\jdk-1.8\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\HHJ\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\HHJ\AppData\Local\Programs\Python\Python310\;C:\Users\HHJ\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\PyCharm 2022.3.3\bin;;D:\VS code\Microsoft VS Code\bin;D:\CO\modelsim_ase\win32aloem;C:\Users\HHJ\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\HHJ\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.401-b10"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testFractionFormatAndOperations" classname="ArithmeticTest" time="0.067"/>
+  <testcase name="testDivisionResultProperFraction" classname="ArithmeticTest" time="0.152">
+    <failure message="除法结果不是真分数: 题目1: 7 + 11 / 13 + 1 = = 8&apos;11/13 ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 除法结果不是真分数: 题目1: 7 + 11 / 13 + 1 = = 8'11/13 ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
+	at ArithmeticTest.testDivisionResultProperFraction(ArithmeticTest.java:145)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[正在生成100道题目，范围：20以内...
+已生成10/100道题目
+已生成20/100道题目
+已生成30/100道题目
+已生成40/100道题目
+已生成50/100道题目
+已生成60/100道题目
+已生成70/100道题目
+已生成80/100道题目
+已生成90/100道题目
+已生成100/100道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testOperatorCountLimit" classname="ArithmeticTest" time="0.089">
+    <system-out><![CDATA[正在生成200道题目，范围：50以内...
+已生成10/200道题目
+已生成20/200道题目
+已生成30/200道题目
+已生成40/200道题目
+已生成50/200道题目
+已生成60/200道题目
+已生成70/200道题目
+已生成80/200道题目
+已生成90/200道题目
+已生成100/200道题目
+已生成110/200道题目
+已生成120/200道题目
+已生成130/200道题目
+已生成140/200道题目
+已生成150/200道题目
+已生成160/200道题目
+已生成170/200道题目
+已生成180/200道题目
+已生成190/200道题目
+已生成200/200道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testLargeScaleGeneration" classname="ArithmeticTest" time="1.366">
+    <failure message="答案计算错误: 77 + 34 / 85 - 12 ==&gt; expected: &lt;65&apos;2/5&gt; but was: &lt;66&apos;3/5&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 答案计算错误: 77 + 34 / 85 - 12 ==> expected: <65'2/5> but was: <66'3/5>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1153)
+	at ArithmeticTest.testLargeScaleGeneration(ArithmeticTest.java:364)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[正在生成10000道题目，范围：100以内...
+已生成10/10000道题目
+已生成20/10000道题目
+已生成30/10000道题目
+已生成40/10000道题目
+已生成50/10000道题目
+已生成60/10000道题目
+已生成70/10000道题目
+已生成80/10000道题目
+已生成90/10000道题目
+已生成100/10000道题目
+已生成110/10000道题目
+已生成120/10000道题目
+已生成130/10000道题目
+已生成140/10000道题目
+已生成150/10000道题目
+已生成160/10000道题目
+已生成170/10000道题目
+已生成180/10000道题目
+已生成190/10000道题目
+已生成200/10000道题目
+已生成210/10000道题目
+已生成220/10000道题目
+已生成230/10000道题目
+已生成240/10000道题目
+已生成250/10000道题目
+已生成260/10000道题目
+已生成270/10000道题目
+已生成280/10000道题目
+已生成290/10000道题目
+已生成300/10000道题目
+已生成310/10000道题目
+已生成320/10000道题目
+已生成330/10000道题目
+已生成340/10000道题目
+已生成350/10000道题目
+已生成360/10000道题目
+已生成370/10000道题目
+已生成380/10000道题目
+已生成390/10000道题目
+已生成400/10000道题目
+已生成410/10000道题目
+已生成420/10000道题目
+已生成430/10000道题目
+已生成440/10000道题目
+已生成450/10000道题目
+已生成460/10000道题目
+已生成470/10000道题目
+已生成480/10000道题目
+已生成490/10000道题目
+已生成500/10000道题目
+已生成510/10000道题目
+已生成520/10000道题目
+已生成530/10000道题目
+已生成540/10000道题目
+已生成550/10000道题目
+已生成560/10000道题目
+已生成570/10000道题目
+已生成580/10000道题目
+已生成590/10000道题目
+已生成600/10000道题目
+已生成610/10000道题目
+已生成620/10000道题目
+已生成630/10000道题目
+已生成640/10000道题目
+已生成650/10000道题目
+已生成660/10000道题目
+已生成670/10000道题目
+已生成680/10000道题目
+已生成690/10000道题目
+已生成700/10000道题目
+已生成710/10000道题目
+已生成720/10000道题目
+已生成730/10000道题目
+已生成740/10000道题目
+已生成750/10000道题目
+已生成760/10000道题目
+已生成770/10000道题目
+已生成780/10000道题目
+已生成790/10000道题目
+已生成800/10000道题目
+已生成810/10000道题目
+已生成820/10000道题目
+已生成830/10000道题目
+已生成840/10000道题目
+已生成850/10000道题目
+已生成860/10000道题目
+已生成870/10000道题目
+已生成880/10000道题目
+已生成890/10000道题目
+已生成900/10000道题目
+已生成910/10000道题目
+已生成920/10000道题目
+已生成930/10000道题目
+已生成940/10000道题目
+已生成950/10000道题目
+已生成960/10000道题目
+已生成970/10000道题目
+已生成980/10000道题目
+已生成990/10000道题目
+已生成1000/10000道题目
+已生成1010/10000道题目
+已生成1020/10000道题目
+已生成1030/10000道题目
+已生成1040/10000道题目
+已生成1050/10000道题目
+已生成1060/10000道题目
+已生成1070/10000道题目
+已生成1080/10000道题目
+已生成1090/10000道题目
+已生成1100/10000道题目
+已生成1110/10000道题目
+已生成1120/10000道题目
+已生成1130/10000道题目
+已生成1140/10000道题目
+已生成1150/10000道题目
+已生成1160/10000道题目
+已生成1170/10000道题目
+已生成1180/10000道题目
+已生成1190/10000道题目
+已生成1200/10000道题目
+已生成1210/10000道题目
+已生成1220/10000道题目
+已生成1230/10000道题目
+已生成1240/10000道题目
+已生成1250/10000道题目
+已生成1260/10000道题目
+已生成1270/10000道题目
+已生成1280/10000道题目
+已生成1290/10000道题目
+已生成1300/10000道题目
+已生成1310/10000道题目
+已生成1320/10000道题目
+已生成1330/10000道题目
+已生成1340/10000道题目
+已生成1350/10000道题目
+已生成1360/10000道题目
+已生成1370/10000道题目
+已生成1380/10000道题目
+已生成1390/10000道题目
+已生成1400/10000道题目
+已生成1410/10000道题目
+已生成1420/10000道题目
+已生成1430/10000道题目
+已生成1440/10000道题目
+已生成1450/10000道题目
+已生成1460/10000道题目
+已生成1470/10000道题目
+已生成1480/10000道题目
+已生成1490/10000道题目
+已生成1500/10000道题目
+已生成1510/10000道题目
+已生成1520/10000道题目
+已生成1530/10000道题目
+已生成1540/10000道题目
+已生成1550/10000道题目
+已生成1560/10000道题目
+已生成1570/10000道题目
+已生成1580/10000道题目
+已生成1590/10000道题目
+已生成1600/10000道题目
+已生成1610/10000道题目
+已生成1620/10000道题目
+已生成1630/10000道题目
+已生成1640/10000道题目
+已生成1650/10000道题目
+已生成1660/10000道题目
+已生成1670/10000道题目
+已生成1680/10000道题目
+已生成1690/10000道题目
+已生成1700/10000道题目
+已生成1710/10000道题目
+已生成1720/10000道题目
+已生成1730/10000道题目
+已生成1740/10000道题目
+已生成1750/10000道题目
+已生成1760/10000道题目
+已生成1770/10000道题目
+已生成1780/10000道题目
+已生成1790/10000道题目
+已生成1800/10000道题目
+已生成1810/10000道题目
+已生成1820/10000道题目
+已生成1830/10000道题目
+已生成1840/10000道题目
+已生成1850/10000道题目
+已生成1860/10000道题目
+已生成1870/10000道题目
+已生成1880/10000道题目
+已生成1890/10000道题目
+已生成1900/10000道题目
+已生成1910/10000道题目
+已生成1920/10000道题目
+已生成1930/10000道题目
+已生成1940/10000道题目
+已生成1950/10000道题目
+已生成1960/10000道题目
+已生成1970/10000道题目
+已生成1980/10000道题目
+已生成1990/10000道题目
+已生成2000/10000道题目
+已生成2010/10000道题目
+已生成2020/10000道题目
+已生成2030/10000道题目
+已生成2040/10000道题目
+已生成2050/10000道题目
+已生成2060/10000道题目
+已生成2070/10000道题目
+已生成2080/10000道题目
+已生成2090/10000道题目
+已生成2100/10000道题目
+已生成2110/10000道题目
+已生成2120/10000道题目
+已生成2130/10000道题目
+已生成2140/10000道题目
+已生成2150/10000道题目
+已生成2160/10000道题目
+已生成2170/10000道题目
+已生成2180/10000道题目
+已生成2190/10000道题目
+已生成2200/10000道题目
+已生成2210/10000道题目
+已生成2220/10000道题目
+已生成2230/10000道题目
+已生成2240/10000道题目
+已生成2250/10000道题目
+已生成2260/10000道题目
+已生成2270/10000道题目
+已生成2280/10000道题目
+已生成2290/10000道题目
+已生成2300/10000道题目
+已生成2310/10000道题目
+已生成2320/10000道题目
+已生成2330/10000道题目
+已生成2340/10000道题目
+已生成2350/10000道题目
+已生成2360/10000道题目
+已生成2370/10000道题目
+已生成2380/10000道题目
+已生成2390/10000道题目
+已生成2400/10000道题目
+已生成2410/10000道题目
+已生成2420/10000道题目
+已生成2430/10000道题目
+已生成2440/10000道题目
+已生成2450/10000道题目
+已生成2460/10000道题目
+已生成2470/10000道题目
+已生成2480/10000道题目
+已生成2490/10000道题目
+已生成2500/10000道题目
+已生成2510/10000道题目
+已生成2520/10000道题目
+已生成2530/10000道题目
+已生成2540/10000道题目
+已生成2550/10000道题目
+已生成2560/10000道题目
+已生成2570/10000道题目
+已生成2580/10000道题目
+已生成2590/10000道题目
+已生成2600/10000道题目
+已生成2610/10000道题目
+已生成2620/10000道题目
+已生成2630/10000道题目
+已生成2640/10000道题目
+已生成2650/10000道题目
+已生成2660/10000道题目
+已生成2670/10000道题目
+已生成2680/10000道题目
+已生成2690/10000道题目
+已生成2700/10000道题目
+已生成2710/10000道题目
+已生成2720/10000道题目
+已生成2730/10000道题目
+已生成2740/10000道题目
+已生成2750/10000道题目
+已生成2760/10000道题目
+已生成2770/10000道题目
+已生成2780/10000道题目
+已生成2790/10000道题目
+已生成2800/10000道题目
+已生成2810/10000道题目
+已生成2820/10000道题目
+已生成2830/10000道题目
+已生成2840/10000道题目
+已生成2850/10000道题目
+已生成2860/10000道题目
+已生成2870/10000道题目
+已生成2880/10000道题目
+已生成2890/10000道题目
+已生成2900/10000道题目
+已生成2910/10000道题目
+已生成2920/10000道题目
+已生成2930/10000道题目
+已生成2940/10000道题目
+已生成2950/10000道题目
+已生成2960/10000道题目
+已生成2970/10000道题目
+已生成2980/10000道题目
+已生成2990/10000道题目
+已生成3000/10000道题目
+已生成3010/10000道题目
+已生成3020/10000道题目
+已生成3030/10000道题目
+已生成3040/10000道题目
+已生成3050/10000道题目
+已生成3060/10000道题目
+已生成3070/10000道题目
+已生成3080/10000道题目
+已生成3090/10000道题目
+已生成3100/10000道题目
+已生成3110/10000道题目
+已生成3120/10000道题目
+已生成3130/10000道题目
+已生成3140/10000道题目
+已生成3150/10000道题目
+已生成3160/10000道题目
+已生成3170/10000道题目
+已生成3180/10000道题目
+已生成3190/10000道题目
+已生成3200/10000道题目
+已生成3210/10000道题目
+已生成3220/10000道题目
+已生成3230/10000道题目
+已生成3240/10000道题目
+已生成3250/10000道题目
+已生成3260/10000道题目
+已生成3270/10000道题目
+已生成3280/10000道题目
+已生成3290/10000道题目
+已生成3300/10000道题目
+已生成3310/10000道题目
+已生成3320/10000道题目
+已生成3330/10000道题目
+已生成3340/10000道题目
+已生成3350/10000道题目
+已生成3360/10000道题目
+已生成3370/10000道题目
+已生成3380/10000道题目
+已生成3390/10000道题目
+已生成3400/10000道题目
+已生成3410/10000道题目
+已生成3420/10000道题目
+已生成3430/10000道题目
+已生成3440/10000道题目
+已生成3450/10000道题目
+已生成3460/10000道题目
+已生成3470/10000道题目
+已生成3480/10000道题目
+已生成3490/10000道题目
+已生成3500/10000道题目
+已生成3510/10000道题目
+已生成3520/10000道题目
+已生成3530/10000道题目
+已生成3540/10000道题目
+已生成3550/10000道题目
+已生成3560/10000道题目
+已生成3570/10000道题目
+已生成3580/10000道题目
+已生成3590/10000道题目
+已生成3600/10000道题目
+已生成3610/10000道题目
+已生成3620/10000道题目
+已生成3630/10000道题目
+已生成3640/10000道题目
+已生成3650/10000道题目
+已生成3660/10000道题目
+已生成3670/10000道题目
+已生成3680/10000道题目
+已生成3690/10000道题目
+已生成3700/10000道题目
+已生成3710/10000道题目
+已生成3720/10000道题目
+已生成3730/10000道题目
+已生成3740/10000道题目
+已生成3750/10000道题目
+已生成3760/10000道题目
+已生成3770/10000道题目
+已生成3780/10000道题目
+已生成3790/10000道题目
+已生成3800/10000道题目
+已生成3810/10000道题目
+已生成3820/10000道题目
+已生成3830/10000道题目
+已生成3840/10000道题目
+已生成3850/10000道题目
+已生成3860/10000道题目
+已生成3870/10000道题目
+已生成3880/10000道题目
+已生成3890/10000道题目
+已生成3900/10000道题目
+已生成3910/10000道题目
+已生成3920/10000道题目
+已生成3930/10000道题目
+已生成3940/10000道题目
+已生成3950/10000道题目
+已生成3960/10000道题目
+已生成3970/10000道题目
+已生成3980/10000道题目
+已生成3990/10000道题目
+已生成4000/10000道题目
+已生成4010/10000道题目
+已生成4020/10000道题目
+已生成4030/10000道题目
+已生成4040/10000道题目
+已生成4050/10000道题目
+已生成4060/10000道题目
+已生成4070/10000道题目
+已生成4080/10000道题目
+已生成4090/10000道题目
+已生成4100/10000道题目
+已生成4110/10000道题目
+已生成4120/10000道题目
+已生成4130/10000道题目
+已生成4140/10000道题目
+已生成4150/10000道题目
+已生成4160/10000道题目
+已生成4170/10000道题目
+已生成4180/10000道题目
+已生成4190/10000道题目
+已生成4200/10000道题目
+已生成4210/10000道题目
+已生成4220/10000道题目
+已生成4230/10000道题目
+已生成4240/10000道题目
+已生成4250/10000道题目
+已生成4260/10000道题目
+已生成4270/10000道题目
+已生成4280/10000道题目
+已生成4290/10000道题目
+已生成4300/10000道题目
+已生成4310/10000道题目
+已生成4320/10000道题目
+已生成4330/10000道题目
+已生成4340/10000道题目
+已生成4350/10000道题目
+已生成4360/10000道题目
+已生成4370/10000道题目
+已生成4380/10000道题目
+已生成4390/10000道题目
+已生成4400/10000道题目
+已生成4410/10000道题目
+已生成4420/10000道题目
+已生成4430/10000道题目
+已生成4440/10000道题目
+已生成4450/10000道题目
+已生成4460/10000道题目
+已生成4470/10000道题目
+已生成4480/10000道题目
+已生成4490/10000道题目
+已生成4500/10000道题目
+已生成4510/10000道题目
+已生成4520/10000道题目
+已生成4530/10000道题目
+已生成4540/10000道题目
+已生成4550/10000道题目
+已生成4560/10000道题目
+已生成4570/10000道题目
+已生成4580/10000道题目
+已生成4590/10000道题目
+已生成4600/10000道题目
+已生成4610/10000道题目
+已生成4620/10000道题目
+已生成4630/10000道题目
+已生成4640/10000道题目
+已生成4650/10000道题目
+已生成4660/10000道题目
+已生成4670/10000道题目
+已生成4680/10000道题目
+已生成4690/10000道题目
+已生成4700/10000道题目
+已生成4710/10000道题目
+已生成4720/10000道题目
+已生成4730/10000道题目
+已生成4740/10000道题目
+已生成4750/10000道题目
+已生成4760/10000道题目
+已生成4770/10000道题目
+已生成4780/10000道题目
+已生成4790/10000道题目
+已生成4800/10000道题目
+已生成4810/10000道题目
+已生成4820/10000道题目
+已生成4830/10000道题目
+已生成4840/10000道题目
+已生成4850/10000道题目
+已生成4860/10000道题目
+已生成4870/10000道题目
+已生成4880/10000道题目
+已生成4890/10000道题目
+已生成4900/10000道题目
+已生成4910/10000道题目
+已生成4920/10000道题目
+已生成4930/10000道题目
+已生成4940/10000道题目
+已生成4950/10000道题目
+已生成4960/10000道题目
+已生成4970/10000道题目
+已生成4980/10000道题目
+已生成4990/10000道题目
+已生成5000/10000道题目
+已生成5010/10000道题目
+已生成5020/10000道题目
+已生成5030/10000道题目
+已生成5040/10000道题目
+已生成5050/10000道题目
+已生成5060/10000道题目
+已生成5070/10000道题目
+已生成5080/10000道题目
+已生成5090/10000道题目
+已生成5100/10000道题目
+已生成5110/10000道题目
+已生成5120/10000道题目
+已生成5130/10000道题目
+已生成5140/10000道题目
+已生成5150/10000道题目
+已生成5160/10000道题目
+已生成5170/10000道题目
+已生成5180/10000道题目
+已生成5190/10000道题目
+已生成5200/10000道题目
+已生成5210/10000道题目
+已生成5220/10000道题目
+已生成5230/10000道题目
+已生成5240/10000道题目
+已生成5250/10000道题目
+已生成5260/10000道题目
+已生成5270/10000道题目
+已生成5280/10000道题目
+已生成5290/10000道题目
+已生成5300/10000道题目
+已生成5310/10000道题目
+已生成5320/10000道题目
+已生成5330/10000道题目
+已生成5340/10000道题目
+已生成5350/10000道题目
+已生成5360/10000道题目
+已生成5370/10000道题目
+已生成5380/10000道题目
+已生成5390/10000道题目
+已生成5400/10000道题目
+已生成5410/10000道题目
+已生成5420/10000道题目
+已生成5430/10000道题目
+已生成5440/10000道题目
+已生成5450/10000道题目
+已生成5460/10000道题目
+已生成5470/10000道题目
+已生成5480/10000道题目
+已生成5490/10000道题目
+已生成5500/10000道题目
+已生成5510/10000道题目
+已生成5520/10000道题目
+已生成5530/10000道题目
+已生成5540/10000道题目
+已生成5550/10000道题目
+已生成5560/10000道题目
+已生成5570/10000道题目
+已生成5580/10000道题目
+已生成5590/10000道题目
+已生成5600/10000道题目
+已生成5610/10000道题目
+已生成5620/10000道题目
+已生成5630/10000道题目
+已生成5640/10000道题目
+已生成5650/10000道题目
+已生成5660/10000道题目
+已生成5670/10000道题目
+已生成5680/10000道题目
+已生成5690/10000道题目
+已生成5700/10000道题目
+已生成5710/10000道题目
+已生成5720/10000道题目
+已生成5730/10000道题目
+已生成5740/10000道题目
+已生成5750/10000道题目
+已生成5760/10000道题目
+已生成5770/10000道题目
+已生成5780/10000道题目
+已生成5790/10000道题目
+已生成5800/10000道题目
+已生成5810/10000道题目
+已生成5820/10000道题目
+已生成5830/10000道题目
+已生成5840/10000道题目
+已生成5850/10000道题目
+已生成5860/10000道题目
+已生成5870/10000道题目
+已生成5880/10000道题目
+已生成5890/10000道题目
+已生成5900/10000道题目
+已生成5910/10000道题目
+已生成5920/10000道题目
+已生成5930/10000道题目
+已生成5940/10000道题目
+已生成5950/10000道题目
+已生成5960/10000道题目
+已生成5970/10000道题目
+已生成5980/10000道题目
+已生成5990/10000道题目
+已生成6000/10000道题目
+已生成6010/10000道题目
+已生成6020/10000道题目
+已生成6030/10000道题目
+已生成6040/10000道题目
+已生成6050/10000道题目
+已生成6060/10000道题目
+已生成6070/10000道题目
+已生成6080/10000道题目
+已生成6090/10000道题目
+已生成6100/10000道题目
+已生成6110/10000道题目
+已生成6120/10000道题目
+已生成6130/10000道题目
+已生成6140/10000道题目
+已生成6150/10000道题目
+已生成6160/10000道题目
+已生成6170/10000道题目
+已生成6180/10000道题目
+已生成6190/10000道题目
+已生成6200/10000道题目
+已生成6210/10000道题目
+已生成6220/10000道题目
+已生成6230/10000道题目
+已生成6240/10000道题目
+已生成6250/10000道题目
+已生成6260/10000道题目
+已生成6270/10000道题目
+已生成6280/10000道题目
+已生成6290/10000道题目
+已生成6300/10000道题目
+已生成6310/10000道题目
+已生成6320/10000道题目
+已生成6330/10000道题目
+已生成6340/10000道题目
+已生成6350/10000道题目
+已生成6360/10000道题目
+已生成6370/10000道题目
+已生成6380/10000道题目
+已生成6390/10000道题目
+已生成6400/10000道题目
+已生成6410/10000道题目
+已生成6420/10000道题目
+已生成6430/10000道题目
+已生成6440/10000道题目
+已生成6450/10000道题目
+已生成6460/10000道题目
+已生成6470/10000道题目
+已生成6480/10000道题目
+已生成6490/10000道题目
+已生成6500/10000道题目
+已生成6510/10000道题目
+已生成6520/10000道题目
+已生成6530/10000道题目
+已生成6540/10000道题目
+已生成6550/10000道题目
+已生成6560/10000道题目
+已生成6570/10000道题目
+已生成6580/10000道题目
+已生成6590/10000道题目
+已生成6600/10000道题目
+已生成6610/10000道题目
+已生成6620/10000道题目
+已生成6630/10000道题目
+已生成6640/10000道题目
+已生成6650/10000道题目
+已生成6660/10000道题目
+已生成6670/10000道题目
+已生成6680/10000道题目
+已生成6690/10000道题目
+已生成6700/10000道题目
+已生成6710/10000道题目
+已生成6720/10000道题目
+已生成6730/10000道题目
+已生成6740/10000道题目
+已生成6750/10000道题目
+已生成6760/10000道题目
+已生成6770/10000道题目
+已生成6780/10000道题目
+已生成6790/10000道题目
+已生成6800/10000道题目
+已生成6810/10000道题目
+已生成6820/10000道题目
+已生成6830/10000道题目
+已生成6840/10000道题目
+已生成6850/10000道题目
+已生成6860/10000道题目
+已生成6870/10000道题目
+已生成6880/10000道题目
+已生成6890/10000道题目
+已生成6900/10000道题目
+已生成6910/10000道题目
+已生成6920/10000道题目
+已生成6930/10000道题目
+已生成6940/10000道题目
+已生成6950/10000道题目
+已生成6960/10000道题目
+已生成6970/10000道题目
+已生成6980/10000道题目
+已生成6990/10000道题目
+已生成7000/10000道题目
+已生成7010/10000道题目
+已生成7020/10000道题目
+已生成7030/10000道题目
+已生成7040/10000道题目
+已生成7050/10000道题目
+已生成7060/10000道题目
+已生成7070/10000道题目
+已生成7080/10000道题目
+已生成7090/10000道题目
+已生成7100/10000道题目
+已生成7110/10000道题目
+已生成7120/10000道题目
+已生成7130/10000道题目
+已生成7140/10000道题目
+已生成7150/10000道题目
+已生成7160/10000道题目
+已生成7170/10000道题目
+已生成7180/10000道题目
+已生成7190/10000道题目
+已生成7200/10000道题目
+已生成7210/10000道题目
+已生成7220/10000道题目
+已生成7230/10000道题目
+已生成7240/10000道题目
+已生成7250/10000道题目
+已生成7260/10000道题目
+已生成7270/10000道题目
+已生成7280/10000道题目
+已生成7290/10000道题目
+已生成7300/10000道题目
+已生成7310/10000道题目
+已生成7320/10000道题目
+已生成7330/10000道题目
+已生成7340/10000道题目
+已生成7350/10000道题目
+已生成7360/10000道题目
+已生成7370/10000道题目
+已生成7380/10000道题目
+已生成7390/10000道题目
+已生成7400/10000道题目
+已生成7410/10000道题目
+已生成7420/10000道题目
+已生成7430/10000道题目
+已生成7440/10000道题目
+已生成7450/10000道题目
+已生成7460/10000道题目
+已生成7470/10000道题目
+已生成7480/10000道题目
+已生成7490/10000道题目
+已生成7500/10000道题目
+已生成7510/10000道题目
+已生成7520/10000道题目
+已生成7530/10000道题目
+已生成7540/10000道题目
+已生成7550/10000道题目
+已生成7560/10000道题目
+已生成7570/10000道题目
+已生成7580/10000道题目
+已生成7590/10000道题目
+已生成7600/10000道题目
+已生成7610/10000道题目
+已生成7620/10000道题目
+已生成7630/10000道题目
+已生成7640/10000道题目
+已生成7650/10000道题目
+已生成7660/10000道题目
+已生成7670/10000道题目
+已生成7680/10000道题目
+已生成7690/10000道题目
+已生成7700/10000道题目
+已生成7710/10000道题目
+已生成7720/10000道题目
+已生成7730/10000道题目
+已生成7740/10000道题目
+已生成7750/10000道题目
+已生成7760/10000道题目
+已生成7770/10000道题目
+已生成7780/10000道题目
+已生成7790/10000道题目
+已生成7800/10000道题目
+已生成7810/10000道题目
+已生成7820/10000道题目
+已生成7830/10000道题目
+已生成7840/10000道题目
+已生成7850/10000道题目
+已生成7860/10000道题目
+已生成7870/10000道题目
+已生成7880/10000道题目
+已生成7890/10000道题目
+已生成7900/10000道题目
+已生成7910/10000道题目
+已生成7920/10000道题目
+已生成7930/10000道题目
+已生成7940/10000道题目
+已生成7950/10000道题目
+已生成7960/10000道题目
+已生成7970/10000道题目
+已生成7980/10000道题目
+已生成7990/10000道题目
+已生成8000/10000道题目
+已生成8010/10000道题目
+已生成8020/10000道题目
+已生成8030/10000道题目
+已生成8040/10000道题目
+已生成8050/10000道题目
+已生成8060/10000道题目
+已生成8070/10000道题目
+已生成8080/10000道题目
+已生成8090/10000道题目
+已生成8100/10000道题目
+已生成8110/10000道题目
+已生成8120/10000道题目
+已生成8130/10000道题目
+已生成8140/10000道题目
+已生成8150/10000道题目
+已生成8160/10000道题目
+已生成8170/10000道题目
+已生成8180/10000道题目
+已生成8190/10000道题目
+已生成8200/10000道题目
+已生成8210/10000道题目
+已生成8220/10000道题目
+已生成8230/10000道题目
+已生成8240/10000道题目
+已生成8250/10000道题目
+已生成8260/10000道题目
+已生成8270/10000道题目
+已生成8280/10000道题目
+已生成8290/10000道题目
+已生成8300/10000道题目
+已生成8310/10000道题目
+已生成8320/10000道题目
+已生成8330/10000道题目
+已生成8340/10000道题目
+已生成8350/10000道题目
+已生成8360/10000道题目
+已生成8370/10000道题目
+已生成8380/10000道题目
+已生成8390/10000道题目
+已生成8400/10000道题目
+已生成8410/10000道题目
+已生成8420/10000道题目
+已生成8430/10000道题目
+已生成8440/10000道题目
+已生成8450/10000道题目
+已生成8460/10000道题目
+已生成8470/10000道题目
+已生成8480/10000道题目
+已生成8490/10000道题目
+已生成8500/10000道题目
+已生成8510/10000道题目
+已生成8520/10000道题目
+已生成8530/10000道题目
+已生成8540/10000道题目
+已生成8550/10000道题目
+已生成8560/10000道题目
+已生成8570/10000道题目
+已生成8580/10000道题目
+已生成8590/10000道题目
+已生成8600/10000道题目
+已生成8610/10000道题目
+已生成8620/10000道题目
+已生成8630/10000道题目
+已生成8640/10000道题目
+已生成8650/10000道题目
+已生成8660/10000道题目
+已生成8670/10000道题目
+已生成8680/10000道题目
+已生成8690/10000道题目
+已生成8700/10000道题目
+已生成8710/10000道题目
+已生成8720/10000道题目
+已生成8730/10000道题目
+已生成8740/10000道题目
+已生成8750/10000道题目
+已生成8760/10000道题目
+已生成8770/10000道题目
+已生成8780/10000道题目
+已生成8790/10000道题目
+已生成8800/10000道题目
+已生成8810/10000道题目
+已生成8820/10000道题目
+已生成8830/10000道题目
+已生成8840/10000道题目
+已生成8850/10000道题目
+已生成8860/10000道题目
+已生成8870/10000道题目
+已生成8880/10000道题目
+已生成8890/10000道题目
+已生成8900/10000道题目
+已生成8910/10000道题目
+已生成8920/10000道题目
+已生成8930/10000道题目
+已生成8940/10000道题目
+已生成8950/10000道题目
+已生成8960/10000道题目
+已生成8970/10000道题目
+已生成8980/10000道题目
+已生成8990/10000道题目
+已生成9000/10000道题目
+已生成9010/10000道题目
+已生成9020/10000道题目
+已生成9030/10000道题目
+已生成9040/10000道题目
+已生成9050/10000道题目
+已生成9060/10000道题目
+已生成9070/10000道题目
+已生成9080/10000道题目
+已生成9090/10000道题目
+已生成9100/10000道题目
+已生成9110/10000道题目
+已生成9120/10000道题目
+已生成9130/10000道题目
+已生成9140/10000道题目
+已生成9150/10000道题目
+已生成9160/10000道题目
+已生成9170/10000道题目
+已生成9180/10000道题目
+已生成9190/10000道题目
+已生成9200/10000道题目
+已生成9210/10000道题目
+已生成9220/10000道题目
+已生成9230/10000道题目
+已生成9240/10000道题目
+已生成9250/10000道题目
+已生成9260/10000道题目
+已生成9270/10000道题目
+已生成9280/10000道题目
+已生成9290/10000道题目
+已生成9300/10000道题目
+已生成9310/10000道题目
+已生成9320/10000道题目
+已生成9330/10000道题目
+已生成9340/10000道题目
+已生成9350/10000道题目
+已生成9360/10000道题目
+已生成9370/10000道题目
+已生成9380/10000道题目
+已生成9390/10000道题目
+已生成9400/10000道题目
+已生成9410/10000道题目
+已生成9420/10000道题目
+已生成9430/10000道题目
+已生成9440/10000道题目
+已生成9450/10000道题目
+已生成9460/10000道题目
+已生成9470/10000道题目
+已生成9480/10000道题目
+已生成9490/10000道题目
+已生成9500/10000道题目
+已生成9510/10000道题目
+已生成9520/10000道题目
+已生成9530/10000道题目
+已生成9540/10000道题目
+已生成9550/10000道题目
+已生成9560/10000道题目
+已生成9570/10000道题目
+已生成9580/10000道题目
+已生成9590/10000道题目
+已生成9600/10000道题目
+已生成9610/10000道题目
+已生成9620/10000道题目
+已生成9630/10000道题目
+已生成9640/10000道题目
+已生成9650/10000道题目
+已生成9660/10000道题目
+已生成9670/10000道题目
+已生成9680/10000道题目
+已生成9690/10000道题目
+已生成9700/10000道题目
+已生成9710/10000道题目
+已生成9720/10000道题目
+已生成9730/10000道题目
+已生成9740/10000道题目
+已生成9750/10000道题目
+已生成9760/10000道题目
+已生成9770/10000道题目
+已生成9780/10000道题目
+已生成9790/10000道题目
+已生成9800/10000道题目
+已生成9810/10000道题目
+已生成9820/10000道题目
+已生成9830/10000道题目
+已生成9840/10000道题目
+已生成9850/10000道题目
+已生成9860/10000道题目
+已生成9870/10000道题目
+已生成9880/10000道题目
+已生成9890/10000道题目
+已生成9900/10000道题目
+已生成9910/10000道题目
+已生成9920/10000道题目
+已生成9930/10000道题目
+已生成9940/10000道题目
+已生成9950/10000道题目
+已生成9960/10000道题目
+已生成9970/10000道题目
+已生成9980/10000道题目
+已生成9990/10000道题目
+已生成10000/10000道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testCompleteWorkflow" classname="ArithmeticTest" time="0.049">
+    <error message="For input string: &quot;108&apos;24/47&quot;" type="java.lang.NumberFormatException"><![CDATA[java.lang.NumberFormatException: For input string: "108'24/47"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at ArithmeticTest.testCompleteWorkflow(ArithmeticTest.java:444)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></error>
+    <system-out><![CDATA[正在生成20道题目，范围：50以内...
+已生成10/20道题目
+已生成20/20道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testMissingRequiredParameters" classname="ArithmeticTest" time="0.014">
+    <system-out><![CDATA[小学四则运算
+生成题目: java ArithmeticGenerator -n <数量> -r <范围>
+例如: java ArithmeticGenerator -n 100 -r 20
+验证答案: java ArithmeticGenerator -e <exercisefile> -a <answerfile>
+例如: java ArithmeticGenerator -e Exercises.txt -a MyAnswers.txt
+正在生成10道题目，范围：10以内...
+已生成10/10道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+小学四则运算
+生成题目: java ArithmeticGenerator -n <数量> -r <范围>
+例如: java ArithmeticGenerator -n 100 -r 20
+验证答案: java ArithmeticGenerator -e <exercisefile> -a <answerfile>
+例如: java ArithmeticGenerator -e Exercises.txt -a MyAnswers.txt
+]]></system-out>
+    <system-err><![CDATA[必须指定范围参数 -r
+]]></system-err>
+  </testcase>
+  <testcase name="testSubtractionNonNegative" classname="ArithmeticTest" time="0.059">
+    <failure message="减法运算产生负数: 14 + (8 + 9 - 14) ==&gt; expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 减法运算产生负数: 14 + (8 + 9 - 14) ==> expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:211)
+	at ArithmeticTest.testSubtractionNonNegative(ArithmeticTest.java:107)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[正在生成100道题目，范围：20以内...
+已生成10/100道题目
+已生成20/100道题目
+已生成30/100道题目
+已生成40/100道题目
+已生成50/100道题目
+已生成60/100道题目
+已生成70/100道题目
+已生成80/100道题目
+已生成90/100道题目
+已生成100/100道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testParenthesesHandling" classname="ArithmeticTest" time="0.001">
+    <failure message="expected: &lt;11&gt; but was: &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <11> but was: <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
+	at ArithmeticTest.testParenthesesHandling(ArithmeticTest.java:372)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+  </testcase>
+  <testcase name="testNumberRangeControl" classname="ArithmeticTest" time="0.047">
+    <system-out><![CDATA[正在生成50道题目，范围：10以内...
+已生成10/50道题目
+已生成20/50道题目
+已生成30/50道题目
+已生成40/50道题目
+已生成50/50道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testFileFormatCorrectness" classname="ArithmeticTest" time="0.038">
+    <system-out><![CDATA[正在生成10道题目，范围：10以内...
+已生成10/10道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testEdgeCases" classname="ArithmeticTest" time="0.011">
+    <system-out><![CDATA[正在生成5道题目，范围：1以内...
+小学四则运算
+生成题目: java ArithmeticGenerator -n <数量> -r <范围>
+例如: java ArithmeticGenerator -n 100 -r 20
+验证答案: java ArithmeticGenerator -e <exercisefile> -a <answerfile>
+例如: java ArithmeticGenerator -e Exercises.txt -a MyAnswers.txt
+正在生成1道题目，范围：10以内...
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+    <system-err><![CDATA[java.lang.IllegalArgumentException: bound must be positive
+	at java.util.Random.nextInt(Random.java:388)
+	at org.arithmetic.ExpressionUtils.generateNumber(ExpressionUtils.java:27)
+	at org.arithmetic.ExpressionTree.generateTree(ExpressionTree.java:27)
+	at org.arithmetic.ExpressionTree.generateTree(ExpressionTree.java:45)
+	at org.arithmetic.ExpressionUtils.generateExpressionTree(ExpressionUtils.java:20)
+	at org.arithmetic.ArithmeticGenerator.generateExercises(ArithmeticGenerator.java:83)
+	at org.arithmetic.ArithmeticGenerator.main(ArithmeticGenerator.java:54)
+	at ArithmeticTest.lambda$testEdgeCases$6(ArithmeticTest.java:404)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3136)
+	at ArithmeticTest.testEdgeCases(ArithmeticTest.java:404)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+题目数量必须在1-10000之间
+题目数量必须在1-10000之间
+]]></system-err>
+  </testcase>
+  <testcase name="testNoDuplicateExpressions" classname="ArithmeticTest" time="0.05">
+    <system-out><![CDATA[正在生成100道题目，范围：20以内...
+已生成10/100道题目
+已生成20/100道题目
+已生成30/100道题目
+已生成40/100道题目
+已生成50/100道题目
+已生成60/100道题目
+已生成70/100道题目
+已生成80/100道题目
+已生成90/100道题目
+已生成100/100道题目
+生成完成！
+题目文件：Exercises.txt
+答案文件：Answers.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testAnswerValidationFunction" classname="ArithmeticTest" time="0.034">
+    <failure message="expected: &lt;true&gt; but was: &lt;false&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertTrue.failNotTrue(AssertTrue.java:63)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:36)
+	at org.junit.jupiter.api.AssertTrue.assertTrue(AssertTrue.java:31)
+	at org.junit.jupiter.api.Assertions.assertTrue(Assertions.java:180)
+	at ArithmeticTest.testAnswerValidationFunction(ArithmeticTest.java:326)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-out><![CDATA[成绩已生成到 Grade.txt
+]]></system-out>
+  </testcase>
+  <testcase name="testExpressionTreeConstruction" classname="ArithmeticTest" time="0.002">
+    <failure message="expected: &lt;16&gt; but was: &lt;(3 + 5) × 2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <16> but was: <(3 + 5) × 2>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
+	at ArithmeticTest.testExpressionTreeConstruction(ArithmeticTest.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$7(TestMethodTestDescriptor.java:217)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:151)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:155)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+  </testcase>
+  <testcase name="testCommutativeLawDeduplication" classname="ArithmeticTest" time="0.001"/>
+</testsuite>
